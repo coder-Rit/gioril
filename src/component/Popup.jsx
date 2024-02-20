@@ -30,7 +30,7 @@ const ContactForm = () => {
         <input type="text" placeholder='Enter your name' className='border-2 border-black p-2' />
         <input type="email" placeholder='Enter your Email' className='border-2 border-black p-2' />
         <input type="phnumber" placeholder='Enter your phone number' className='border-2 border-black p-2' />
-        <input type="text" placeholder='Enter your Location' className='border-2 border-black p-2' />
+        <input type="number" placeholder='Enter your pin code' className='border-2 border-black p-2' />
         <button className='bg-blue-600 p-2 text-white font-bold'>Submit</button>
         </div>
         

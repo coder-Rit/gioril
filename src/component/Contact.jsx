@@ -1,5 +1,6 @@
 import React from "react";
 import Bar from "./Navbar";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -41,6 +42,7 @@ const Contact = () => {
           <button className="bg-blue-600 text-white p-2 ">Submit</button>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

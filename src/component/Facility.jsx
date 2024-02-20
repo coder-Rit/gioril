@@ -6,7 +6,7 @@ const Facility = () => {
       <div className="bg-white shadow-sm shadow-black  w-1/2 rounded-md">
         <div className="bg-blue-500 w-full rounded-t-md">
           <h1 className=" p-3 text-2xl font-bold text-center text-white ">
-            Get Facilities
+          Requirement            
           </h1>
         </div>
 
@@ -24,7 +24,7 @@ const Facility = () => {
       <div className="bg-white shadow-sm shadow-black  w-1/2 rounded-md">
         <div className="bg-blue-500 w-full rounded-t-md">
           <h1 className=" text-white p-3 text-2xl font-bold text-center">
-            Requirement
+            Get Facilities
           </h1>
         </div>
 

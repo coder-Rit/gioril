@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media screen and (max-width: 650px) {
+   .footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+}
