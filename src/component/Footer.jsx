@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <div className="footerItem mx-auto text-center text-sm p-1 ">
-        <a href="https://wa.me/+8961979319" target="_blank">
+        <a href="https://wa.me/+918961979319" target="_blank">
           <span
             class="w-10 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
@@ -42,7 +42,7 @@ const Footer = () => {
           </span>
         </a>
 
-        <a href="tel:+8961979319">
+        <a href="tel:+918961979319">
           <span  class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ">
             <BootstrapTooltip placement="top" title="+918961979319">
               <PhoneIcon></PhoneIcon> Call Us
