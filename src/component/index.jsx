@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Services from "./Servicesq";
 import FAQ from "./FAQ";
-import Footer from "./Footer"; 
+import Footer from "./Footer";
 import Popup from "./Popup";
 import WhatsAppIcon from "./Whatsapp";
 import Facility from "./Facility";
@@ -12,8 +12,7 @@ import Why from "./Why";
 const MainComp = () => {
   return (
     <div>
-        
-        <WhatsAppIcon/>
+       <WhatsAppIcon />
       <Popup />
       <Navbar />
       <Hero />
@@ -24,7 +23,7 @@ const MainComp = () => {
       <Why />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default MainComp
+export default MainComp;

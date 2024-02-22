@@ -3,6 +3,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 
+import { Toaster, toast } from "sonner";
+
+
 const Bar = () => {
   const [nav, setNav] = useState(false);
   const redirectTo =  useNavigate()
@@ -60,6 +63,8 @@ const Bar = () => {
         isScrolled ? "shadow-md   shadow-gray-600" : ""
       }`}
     >
+      <Toaster position="top-center" />
+
       <div className="ml-2 lg:w-[110px] w-[90px] ">
         <img src="./images/jioril.png" alt="" />
       </div>
