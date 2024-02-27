@@ -5,7 +5,7 @@ import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { useNavigate } from "react-router-dom";
-import GoogleTagManager from "./GoogleTagManager";
+import GoogleTagManagerScript from "./GoogleTagManagerScript";
 
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -63,7 +63,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <GoogleTagManager></GoogleTagManager>
+      <GoogleTagManagerScript></GoogleTagManagerScript>
 
       <p >Read Our <a style={{color:"blue",cursor:"pointer"}} onClick={()=>redirectTo("/Policy")}>Privacy Policy</a></p>
     </div>

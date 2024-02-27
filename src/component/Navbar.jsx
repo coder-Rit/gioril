@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 
 import { Toaster, toast } from "sonner";
+import GoogleTagManagerScript from "./GoogleTagManagerScript";
 
 
 const Bar = () => {
@@ -64,7 +65,7 @@ const Bar = () => {
       }`}
     >
       <Toaster position="top-center" />
-
+      <GoogleTagManagerScript></GoogleTagManagerScript>
       <div className="ml-2 lg:w-[110px] w-[90px] ">
         <img src="./images/jioril.png" alt="" />
       </div>
