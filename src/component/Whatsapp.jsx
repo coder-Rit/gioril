@@ -9,10 +9,6 @@ const WhatsAppIcon = () => {
     <a href="https://wa.me/+918961979319" target="_blank" rel="noopener noreferrer" className="fixed bottom-5 right-5 z-50">
       <img src={img} alt="WhatsApp Icon" className="w-12 h-12" />
     </a>
-    <a href="tel:+918961979319"  rel="noopener noreferrer" className="fixed bottom-5 left-5 z-50 rounded-full bg-white p-2">
-    <PhoneIcon></PhoneIcon>
-
-    </a>
   </>
   );
 };

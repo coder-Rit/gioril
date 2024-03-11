@@ -4,7 +4,6 @@ import About from "./About";
 import Services from "./Servicesq";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
-import Popup from "./Popup";
 import WhatsAppIcon from "./Whatsapp";
 import Facility from "./Facility";
 import Why from "./Why";
@@ -12,8 +11,7 @@ import Why from "./Why";
 const MainComp = () => {
   return (
     <div>
-       <WhatsAppIcon />
-      <Popup />
+      <WhatsAppIcon />
       <Navbar />
       <Hero />
       <About />
